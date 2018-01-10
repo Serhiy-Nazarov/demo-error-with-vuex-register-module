@@ -30,9 +30,9 @@ store.registerModule('test2', {
 }, { preserveState: true })
 
 if (store.state.hasOwnProperty('test2') === false) {
-  console.error('ERROR in module test2 (preserveState: false)')
+  console.error('ERROR in module test2 (preserveState: true)')
 } else {
-  console.log('module test2 (preserveState: false) is success')
+  console.log('module test2 (preserveState: true) is success')
 }
 
 export default store
